@@ -1,0 +1,153 @@
+.below{
+    text-align: center;
+    font-size: small;
+    color: gray;
+}
+
+.number{
+    color: black;
+}
+
+.main-title-cart{
+    color: rgb(53, 75, 58);
+}
+
+.text{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin: 50px auto;
+}
+
+.empty-cart-message{
+    text-align: center;
+    margin: 150px auto;
+    width: 35%;
+    padding: 30px;
+    background-color: rgb(81, 107, 79);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: white;
+}
+
+small{
+    color: rgb(175, 175, 175);
+}
+
+
+
+.item{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    background-color: rgb(70, 87, 67);
+    flex-direction: row;
+    height: 80px;
+    overflow: hidden;
+    color: white;
+    border-radius: 20px;
+}
+
+.item-text{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+.item-image{
+    width: 160px;
+    height: 80px;
+}
+
+img{
+    width: 100% !important;
+    height: 100% !important ;
+    object-fit: cover !important ;
+}
+
+.cart-container{
+    display: grid;
+    gap: 2px;
+}
+
+.cart-actions{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.left{
+    background-color: rgb(185, 72, 72);
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+
+.left button{
+    font-size: small;
+}
+
+.right{
+    display: flex;
+}
+
+.total{
+    background-color: rgb(255, 246, 116);
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: small;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+
+.right button{
+    background-color: rgb(93, 114, 84)  !important;
+    padding: 15px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.right button:hover{
+    opacity: 0.8;
+}
+
+i{
+    font-size: medium;
+    
+}
+
+button:hover{
+    opacity: 0.7;
+}
+.disable{
+    display: none;
+}
+
+.thank-you{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 40%;
+    margin: 35vh auto;
+    text-align: center;
+    color: white;
+    background-color: rgb(74, 99, 74);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.tree{
+    margin-right: 0px;
+}

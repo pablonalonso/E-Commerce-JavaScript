@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/css/index.css">
+    <title>E-Commerce</title>
+</head>
+<body>
+    <div class="wrapper">
+        <aside>
+
+            <header>
+                <h1 class="logo">LA PINAMARENSE</h1>
+            </header>
+
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="/html/index.html"><i class="bi bi-arrow-bar-left"></i>Volver</a>
+                    </li>
+                    <li>
+                        <p id="cart-button" >
+                            <i class="bi bi-cart2"></i>
+                            Carrito
+                            <span id="number" class="number">0</span>
+                        </p>
+                    </li>
+                </ul>
+            </nav>
+
+            <footer>
+                <p class="footer-text">©2023 La Pinamarense</p>
+            </footer>
+        </aside>
+
+        <main>
+
+            <div class="text">
+                <h2 class="main-title-cart">Carrito</h2>
+                <p class="below">Todos los productos del carrito apareceran abajo</p>
+            </div>
+
+            <div  id="empty-cart-message" class="empty-cart-message disable">
+                <p>Carrito vacio<i class="bi bi-cart-x"></i></p>
+                <small>No se encontraron productos en el carrito</small>
+            </div>
+
+            <div id="cart-container" class="cart-container disable">
+             
+            </div>
+
+            <div id="cart-actions" class="cart-actions disable">
+                <div class="left">
+                    <button id="empty-button">Vaciar carrito</button>
+                </div>
+
+                <div class="right">
+                    <div class="total">
+                        <p id="total-number"></p>
+                    </div>
+                    <div class="buy-now">
+                        <button id="buy-now-button">Comprar</button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="thank-you" class="thank-you">
+                <p>Compra realizada con exito!<i class="bi bi-check-circle-fill"></i></p>
+                <small>Muchas gracias por confiar en nosotros.</small>
+                <h4>La P<i class="bi bi-tree-fill tree"></i>NAMARENSE</>
+            </div>
+        </main>
+    </div>
+    <script src="/js/cart.js"></script>
+</body>
+</html>

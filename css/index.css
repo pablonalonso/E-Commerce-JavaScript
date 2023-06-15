@@ -1,0 +1,157 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+i{
+    margin-right: 10px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(47, 61, 45);
+}
+
+aside{
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+.logo{
+    font-family: 'Anton', sans-serif;
+    font-weight: 200;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.menu{
+    text-align: left;
+    display: grid;
+    flex-direction: column;
+    gap: 50px;
+    font-size: 14px;
+    width: 70%;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-text{
+    font-size: small;
+}
+
+.number{
+    background-color: white;
+    color: rgb(61, 78, 61);
+    padding: 5px 10px;
+    border-radius: 20%;
+}
+
+main{
+    background-color: white;
+    margin: 20px;
+    margin-left: 0px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.product-container{
+    margin: auto;
+    width: 97%;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+
+.product{
+    overflow: hidden;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 200px;
+}
+
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.product-text{
+    color: white;
+    background-color: rgb(63, 80, 66);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+    position: relative;
+    bottom: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.active{
+    background-color: white;
+    color: rgb(67, 85, 67);
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+
+.main-title{
+    text-align: center;
+    margin: 3rem 0rem;
+    color: rgb(103, 122, 103);
+}
+
+.add-button{
+    background-color: rgb(247, 99, 99);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.add-button:hover{
+    opacity: 0.8;
+}
