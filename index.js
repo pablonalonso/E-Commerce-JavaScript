@@ -5,7 +5,7 @@ const products = [
     {
         id: 0,
         title: "Coca-Cola",
-        image: "../img/bebidas/coca-cola.jpg",
+        image: "/img/bebidas/coca-cola.jpg",
         category: {
             id: 0,
             categoryName: "Bebidas"
@@ -15,7 +15,7 @@ const products = [
     {
         id: 1,
         title: "Fanta",
-        image: "../img/bebidas/fanta.jpg",
+        image: "/img/bebidas/fanta.jpg",
         category: {
             id: 0,
             categoryName: "Bebidas"
@@ -25,7 +25,7 @@ const products = [
     {
         id: 2,
         title: "Sprite",
-        image: "../img/bebidas/sprite.jpg",
+        image: "/img/bebidas/sprite.jpg",
         category: {
             id: 0,
             categoryName: "Bebidas"
@@ -37,7 +37,7 @@ const products = [
     {
         id: 3,
         title: "Combo 1",
-        image: "../img/combos/combo-01.jpg",
+        image: "/img/combos/combo-01.jpg",
         category: {
             id: 1,
             categoryName: "Combos"
@@ -47,7 +47,7 @@ const products = [
     {
         id: 4,
         title: "Combo 2",
-        image: "../img/combos/combo-02.jpg",
+        image: "/img/combos/combo-02.jpg",
         category: {
             id: 1,
             categoryName: "Combos"
@@ -57,7 +57,7 @@ const products = [
     {
         id: 5,
         title: "Combo 3",
-        image: "../img/combos/combo-03.jpg",
+        image: "/img/combos/combo-03.jpg",
         category: {
             id: 1,
             categoryName: "Combos"
@@ -67,7 +67,7 @@ const products = [
     {
         id: 6,
         title: "Combo 4",
-        image: "../img/combos/combo-04.jpg",
+        image: "/img/combos/combo-04.jpg",
         category: {
             id: 1,
             categoryName: "Combos"
@@ -78,7 +78,7 @@ const products = [
     {
         id: 7,
         title: "Penne",
-        image: "../img/pastas/pasta-01.jpg",
+        image: "/img/pastas/pasta-01.jpg",
         category: {
             id: 2,
             categoryName: "Pastas"
@@ -88,7 +88,7 @@ const products = [
     {
         id: 8,
         title: "Spaghetti",
-        image: "../img/pastas/pasta-02.jpg",
+        image: "/img/pastas/pasta-02.jpg",
         category: {
             id: 2,
             categoryName: "Pastas"
@@ -98,7 +98,7 @@ const products = [
     {
         id: 9,
         title: "Nocci",
-        image: "../img/pastas/pasta-03.jpg",
+        image: "/img/pastas/pasta-03.jpg",
         category: {
             id: 2,
             categoryName: "Pastas"
