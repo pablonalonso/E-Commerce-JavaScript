@@ -5,7 +5,7 @@ const products = [
     {
         id: 0,
         title: "Coca-Cola",
-        image: "./img/bebidas/coca-cola.jpg",
+        image: "img/bebidas/coca-cola.jpg",
         category: {
             id: 0,
             categoryName: "Bebidas"
